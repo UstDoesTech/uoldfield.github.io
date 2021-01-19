@@ -4,7 +4,7 @@ title:  "Hello World!"
 date:   2021-01-19 08:28:38 +0000
 ---
 
-{% highlight ruby %}
+{% highlight python %}
 def print_hi(name)
   puts "Hello #{name}"
 end
