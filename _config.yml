@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Ust Does Tech
-email: your-email@example.com
+email: ust@ustdoes.tech
 description: >- # this means to ignore newlines until "baseurl:"
   Ust Does Tech is the portfolio of Ust Oldfield,
   showcasing the blog posts and projects that Ust
