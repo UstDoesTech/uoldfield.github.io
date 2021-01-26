@@ -9,7 +9,7 @@ In principle you deal with two known exchange rates and one unknown.
 For example, if you have an exchange rate base of USD and know that the GBP/USD exchange rate is 1.54631 and the EUR/USD exchange rate is 1.11470 and wish to rebase from USD to EUR. You would begin by finding the inverse rates of GBP/USD (1/1.54631 = 0.6467), multiply by the EUR/USD rate (0.6467*1.11470 = 0.72087649) which produces the EUR/GBP and then find the inverse (1/0.72087649 = 1.3872) to produce the GBP/EUR rate. In order to find the USD/EUR exchange rate one simply finds the reverse of the EUR/USD rate (1/1.11470 = 0.8971).
 
 That might sound simple, but most exchange rates are held in a table across a range of dates. This complicates the calculation somewhat. I’ve used CTEs because I find that it makes the script neater and easier to debug. Below is an example of the triangulation using the Sales.CurrencyRate table in the AdventureWorks2012 database.
-''' sql
+{% highlight sql %}
 USE AdventureWorks2012
 ;
 
@@ -59,6 +59,6 @@ WHEN c.ToCurrencyCode <> ‘EUR’ THEN (E.EuroConversion * L.LocalCurrencyConve
 ELSE 1
 END    IS NOT NULL
 ORDER BY C.CurrencyRateID
-'''
+{% end highlight %}
 
 As always, if you have any feedback and can suggest a simpler way of performing the triangulation I would love to hear it.
