@@ -32,7 +32,7 @@ Those are the risks and challenges we face with Azure Data Lake. But how do we m
 
 ## The Framework
 
-![Data Lake Framework](\_images\datalake_framework_1.jpg)
+![Data Lake Framework](../_images/datalake_framework_1.jpg)
 
 We’ve carved the lake up into different sections. The key point is that the lake contains all sorts of different data – some that’s sanitised and ready to consume by the business user, some that’s indecipherable raw data that needs careful analysis before it is of use. By ensuring data are carefully managed you can instantly understand the level of preparation that data has undergone.
 
@@ -48,7 +48,7 @@ We’re taking the blank-canvas of the Data Lake Store and applying a folder str
 
 The folder structure itself can be as detailed as you like, we follow a specific structure ourselves:
 
-![Data Lake Framework: Folder Structure](\_images\datalake_framework_2.jpg)
+![Data Lake Framework: Folder Structure](../_images/datalake_framework_2.jpg)
 
 The Raw data area, the landing place for any files entering the lake, has sub-folders for each source of data. This allows for the easy browsing of the data sources within the Lake and ensures we are not receiving the same data twice, even if we use it within different systems.
 
