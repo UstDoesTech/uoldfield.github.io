@@ -48,7 +48,7 @@ We’re taking the blank-canvas of the Data Lake Store and applying a folder str
 
 The folder structure itself can be as detailed as you like, we follow a specific structure ourselves:
 
-![Data Lake Framework: Folder Structure](../_images/datalake_framework_2.jpg)
+![Data Lake Framework: Folder Structure](https://ustblog.blob.core.windows.net/blogimages/datalake_framework_2.jpg)
 
 The Raw data area, the landing place for any files entering the lake, has sub-folders for each source of data. This allows for the easy browsing of the data sources within the Lake and ensures we are not receiving the same data twice, even if we use it within different systems.
 
