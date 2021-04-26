@@ -36,41 +36,41 @@ Often in forecasting, a key step is knowing when something can be forecast accur
 1. Average Approach
     - The prediction of all future values are the mean of the past values.
 
-![Output of Average Forecast method](/_images/forecast_average.jpg)
+![Output of Average Forecast method](https://ustblog.blob.core.windows.net/blogimages/forecast_average.jpg)
 
 2. Naive Approach
     - The prediction of all future values is that of the last observed value
     - Approach is cost effective and provides a benchmark for more sophisticated models
 
-![Output of Naive Forecast Method](/_images/forecast_naive.jpg)
+![Output of Naive Forecast Method](https://ustblog.blob.core.windows.net/blogimages/forecast_naive.jpg)
 
 3. Drift Method
     - A variation of the Naive method, whereby the increase or decrease (drift) is the average change seen across the historical data
 
-![Output of Drift Forecast Method](/_images/forecast_drift.jpg)
+![Output of Drift Forecast Method](https://ustblog.blob.core.windows.net/blogimages/forecast_drift.jpg)
 
 4. Seasonal Naive
     - Accounts for seasonal changes in the data and sets each prediction to the last observed value in the same season
 
-![Output of Seasonal Naive Forecast Method](/_images/forecast_seasonal_naive.jpg)
+![Output of Seasonal Naive Forecast Method](https://ustblog.blob.core.windows.net/blogimages/forecast_seasonal_naive.jpg)
 
 5. Autoregressive Integrated Moving Average (ARIMA)
     - Used to apply a better understanding of the data or to predict future points
 
-![Output of ARIMA Forecast Method](/_images/forecast_ARIMA.jpg)
+![Output of ARIMA Forecast Method](https://ustblog.blob.core.windows.net/blogimages/forecast_ARIMA.jpg)
 
 6. Exponential Smoothing
     - Applies smoothing to the data in order to remove noise
     - Three types
     1. Simple Exponential
         - Models level
-        ![Output of Simple Exponential Forecast Method](/_images/forecast_simple_exponential.jpg)
+        ![Output of Simple Exponential Forecast Method](https://ustblog.blob.core.windows.net/blogimages/forecast_simple_exponential.jpg)
     2. Double Exponential
         - Models level and trend
-        ![Output of Double Exponential Forecast Method](/_images/forecast_double_exponential.jpg)
+        ![Output of Double Exponential Forecast Method](https://ustblog.blob.core.windows.net/blogimages/forecast_double_exponential.jpg)
     3. Triple Exponential
         - Models trend and seasonal components
-        ![Output of Triple Exponential Forecast Method](/_images/forecast_triple_exponential.jpg)
+        ![Output of Triple Exponential Forecast Method](https://ustblog.blob.core.windows.net/blogimages/forecast_triple_exponential.jpg)
 
 7. Probalistic
 - Assign a probability value to each of a variety of different outcomes, and the complete set of probabilities represents a probability forecast.
