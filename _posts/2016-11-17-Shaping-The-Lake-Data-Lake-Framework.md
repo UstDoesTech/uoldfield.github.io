@@ -32,7 +32,7 @@ Those are the risks and challenges we face with Azure Data Lake. But how do we m
 
 ## The Framework
 
-![Data Lake Framework](https://github.com/uoldfield/uoldfield.github.io/blob/master/_images/datalake_framework_1.jpg)
+![Data Lake Framework](https://github.com/uoldfield/uoldfield.github.io/blob/8d2251a97443b9578d250b64e96b553f03325f03/_images/datalake_framework_1.jpg)
 
 We’ve carved the lake up into different sections. The key point is that the lake contains all sorts of different data – some that’s sanitised and ready to consume by the business user, some that’s indecipherable raw data that needs careful analysis before it is of use. By ensuring data are carefully managed you can instantly understand the level of preparation that data has undergone.
 
